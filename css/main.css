@@ -1,0 +1,79 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    padding: 5px;
+    margin: 0px -15px;
+}
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.form-horizontal .form-group {
+    margin: 0px 0px;
+}
+
+select.form-control {
+    min-width: 200px;
+}
+
+select.form-control, .input-group .form-control {
+    height: 36px;
+}
+
+.customer {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.customer-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.customer-reason {
+    font-style: italic;
+    border: 1px solid #AAAAAA;
+}
+
+.customer-reason span {
+    font-style: normal;
+    color: #888888;
+}
+
+.info:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.info-left {
+    float: left;
+}
+
+.vehicle {
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0000AA;
+}
+
+.notes {
+    font-style: italic;
+    font-size: 12px;
+    margin: 3px;
+    padding: 4px;
+    background: #FFFFFF;
+    color: #555555;
+}
